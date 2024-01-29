@@ -1,0 +1,32 @@
+.containerBtnContacts{
+    display: flex;
+    gap: 60px;
+}
+
+.btnContacts{
+    background-color: #001630;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: #0075FA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 634px) {
+
+    .containerBtnContacts{
+        gap: 25px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 643px) and (max-width: 1080px) {
+
+    .containerBtnContacts{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,9 @@
+.containerBanner{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(#3C6596, #799DC9);
+    /* background-color: #799DC9; */
+    /* box-sizing: border-box;
+    object-fit: cover;
+    background-image: url('https://res.cloudinary.com/dk9ktxdpj/image/upload/v1705614752/Portafolio/udfiqzqarsr7zch0blb3.svg') */
+}

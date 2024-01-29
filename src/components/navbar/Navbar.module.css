@@ -1,0 +1,23 @@
+.containerNavbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.btnContacto{
+    background-color: #001630;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: #0075FA;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 634px) {
+
+    .containerNavbar{
+    padding: 10px 30px;
+    }
+}

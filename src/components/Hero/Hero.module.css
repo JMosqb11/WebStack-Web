@@ -1,0 +1,74 @@
+.containerHero{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerDescriptionHero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.textUp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.rol{
+    font-size: 40px;
+    font-weight: bolder;
+    background: radial-gradient( #ff00bf, #ffffff);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.textMind{
+    width: 430px;
+    height: auto;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btnsHero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #ffffff;
+}
+
+.btnlinkedin{
+    background-color: #001630;
+    padding: 12px 30px;
+    text-decoration: none;
+    color: #0075FA;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 634px) {
+    .name{
+        font-size: 35px;
+    }
+
+    .rol{
+        font-size: 20px;
+    }
+
+    .textMind{
+        width: 345px;
+        font-size: 14px;
+    }
+
+    
+}
