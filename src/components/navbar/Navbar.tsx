@@ -9,7 +9,7 @@ return (
     <section className={style.containerNavbar}>
         <div className={style.containerLogo}>
         <Image
-            src="https://res.cloudinary.com/dk9ktxdpj/image/upload/v1706330644/Portafolio/Logos/pcchrzoxqug8i5c8o36l.png"
+            src="https://res.cloudinary.com/dk9ktxdpj/image/upload/v1710621838/Logos/mpxbiceoiicrlsopgvzc.svg"
             alt="Logo Jhonier"
             width={160}
             height={52}
