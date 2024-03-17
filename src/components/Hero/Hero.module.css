@@ -6,6 +6,23 @@
     justify-content: center;
 }
 
+.containerPresentation{
+    display:flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.containerAvatar{
+    width: 300px;
+    height: 300px;
+    background-color: #8C52FF;
+    border-radius: 20px;
+}
+
+.avatar {
+    object-fit: contain;
+}
+
 .containerDescriptionHero{
     display: flex;
     flex-direction: column;
@@ -13,62 +30,43 @@
     gap: 30px;
 }
 
-.textUp{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .name{
-    font-size: 45px;
+    font-size: 50px;
     color: #ffffff;
 }
 
 .rol{
-    font-size: 40px;
+    text-align: end;
+    font-size: 30px;
     font-weight: bolder;
     background: radial-gradient( #ff00bf, #ffffff);
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
-.textMind{
-    width: 430px;
-    height: auto;
-    font-size: 16px;
-    text-align: center;
+.description{
+    font-size: 20px;
     color: #ffffff;
 }
 
-.btnsHero{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    color: #ffffff;
-}
-
-.btnlinkedin{
-    background-color: #001630;
-    padding: 12px 30px;
-    text-decoration: none;
-    color: #0075FA;
-    border-radius: 10px;
-}
 
 @media screen and (max-width: 634px) {
-    .name{
-        font-size: 35px;
-    }
+.containerPresentation{
+    flex-direction: column;
+    gap: 10px;
+}
 
-    .rol{
-        font-size: 20px;
-    }
+.name{
+    font-size: 40px;
+}
 
-    .textMind{
-        width: 345px;
-        font-size: 14px;
-    }
+.rol{
+    text-align: end;
+    font-size: 20px;
+}
 
-    
+.description{
+    font-size: 20px;
+    text-align: center;
+}
 }

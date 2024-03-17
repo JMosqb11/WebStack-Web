@@ -3,28 +3,27 @@ import React from "react";
 import style from "./Hero.module.css";
 import Image from "next/image";
 
+import { Avatar } from "@mui/material";
+import { ServerStyleSheet } from "styled-components";
+
 const Hero = () => {
 return (
 <>
     <section className={style.containerHero}>
-    <div className={style.containerDescriptionHero}>
-        <div className={style.textUp}>
-        <p className={style.name}>Jhonier Mosquera</p>
-        <p className={style.rol}>Desarrollador de Software - Frontend</p>
+        <div className={style.containerDescriptionHero}>
+            <div className={style.containerPresentation}>
+                <div className={style.containerAvatar}>
+                <Image className={style.avatar} src="https://res.cloudinary.com/dk9ktxdpj/image/upload/v1706377034/Portafolio/omzjmkdb7yttawqvgfmz.png" alt="Jhonier Mosquera" width={300} height={300}></Image>
+                </div>
+                <div>
+                    <p className={style.name}>Jhonier Mosquera</p>
+                    <p className={style.rol}>Frontend Developer</p>
+                </div>
+            </div>
+            <div>
+                <p className={style.description}>Un desarrollador frontend apasionado, que le encanta crear aplicaciones web hermosas y responsivas.</p>
+            </div>
         </div>
-
-        <div className={style.textMind}>
-        <p>
-            Desarrollador creativo de interfaces digitales, siendo intuitivas,
-            innovadoras y faciles de usar, generando soluciónes y oportunidades.
-        </p>
-        </div>
-
-        <div className={style.btnsHero}>
-        <p>Conecta conmigo y conoce más</p>
-        <a href="https://www.linkedin.com/in/jhonierdev/" target="_blank" className={style.btnlinkedin}>Linkedin</a>
-        </div>
-    </div>
     </section>
 </>
 );
